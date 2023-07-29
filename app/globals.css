@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  --tw-bg-opacity: 1;
+  /* background-color: rgb(230, 230, 230); */
+  /* background-color: rgb(28 25 23/var(--tw-bg-opacity)); */
+  background-color: #16191d;;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'mont';
+    src: url('/Montserrat.ttf');
+  }
+  @font-face {
+    font-family: 'consola';
+    src: url('/consola.ttf');
+  }
+  @font-face {
+    font-family: 'hubot';
+    src: url('/Hubot-Sans.ttf');
+  }
+
+}
+
+
+/* Testing background animation */
+.content{
+  width: calc(800px*0.84);
+}
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.graph-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.bar {
+  width: 20px;
+  height: 100px;
+  margin: 0 5px;
+  background-color: #007bff;
+}
