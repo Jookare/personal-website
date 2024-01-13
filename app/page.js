@@ -11,8 +11,8 @@ export default function Home() {
       <Noise />
       <Navbar />
 
-      <div className="content relative z-10 mx-auto mt-[50px]">
-        <Terminal />
+      <div className="content relative z-10 mx-auto mt-[250px]">
+        {/* <Terminal /> */}
         <Info />
       </div>
       

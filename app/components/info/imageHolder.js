@@ -10,10 +10,10 @@ export default function ImageHolder() {
                 from-neutral-50/90 to-neutral-50/90 shadow-lg p-[3px] -translate-y-1/2
                 ">
                 <Image
-                    className="rounded-full p-px h-[142px] w-[142px]"
+                    className="rounded-full p-px h-[110px] w-[110px]"
                     src="/pfp.avif"
-                    width={200}
-                    height={200}
+                    width={120}
+                    height={120}
                 />
             </div>
             <div className="bg-cyan-500/90 rounded-2xl px-3 py-1 flex items-center justify-center">
