@@ -20,13 +20,13 @@ body {
   --tw-bg-opacity: 1;
   /* background-color: rgb(230, 230, 230); */
   /* background-color: rgb(28 25 23/var(--tw-bg-opacity)); */
-  background-color: #16191d;;
+  background-color: #141414;;
 }
 
 @layer base {
   @font-face {
-    font-family: 'mont';
-    src: url('/Montserrat.ttf');
+    font-family: 'Inter';
+    src: url('/Inter.ttf');
   }
   @font-face {
     font-family: 'consola';
@@ -40,8 +40,23 @@ body {
 }
 
 
-/* Testing background animation */
-.content{
-  width: calc(800px*0.84);
+.stripe-bg{
+  background-image: repeating-linear-gradient( 135deg, rgb(38, 38, 38), 
+  rgb(38, 38, 38) 2px, 
+  rgb(23, 23, 23) 2px, 
+  rgb(23, 23, 23) 8px );
 }
 
+
+/* .label {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.label:after{
+  content:'Artificial Intelligence';
+}
+.label:hover:after{
+  content:'Deep Learning';
+} */

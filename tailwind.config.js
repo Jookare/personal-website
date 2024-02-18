@@ -18,9 +18,20 @@ module.exports = {
         'xl-inner': 'inset 0px 0px 4px 4px rgba(0, 0, 0, 0.35)',
       },
       fontFamily: {
+        'sans': ['hubot', 'Inter', 'Inter Placeholder', 'Inter-SemiBold', 'sans-serif'],
+        'inter': ['Inter'],
         'mont': ['mont'],
         'consola': ['consola'],
         'hubot': ['hubot']
+      },
+      colors:{
+        accent: "#212121"
+      },
+      height: {
+        60: '240px',
+      },
+      minHeight: {
+        60: '240px',
       },
     }
   },
