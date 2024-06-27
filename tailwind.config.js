@@ -25,7 +25,8 @@ module.exports = {
         'hubot': ['hubot']
       },
       colors:{
-        accent: "#212121"
+        accent: "#212121",
+        primary: "#EE4C2C"
       },
       height: {
         60: '240px',
@@ -35,5 +36,5 @@ module.exports = {
       },
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }

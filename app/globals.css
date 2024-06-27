@@ -4,7 +4,7 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: #141414;;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -16,11 +16,15 @@
   }
 }
 
+html{
+  background-color: #141414;
+}
+
 body {
   --tw-bg-opacity: 1;
   /* background-color: rgb(230, 230, 230); */
   /* background-color: rgb(28 25 23/var(--tw-bg-opacity)); */
-  background-color: #141414;;
+  background-color: #141414;
 }
 
 @layer base {
@@ -60,3 +64,24 @@ body {
 .label:hover:after{
   content:'Deep Learning';
 } */
+
+
+
+.skill:hover .no-color {
+  /* opacity: 0;  */
+  /* transition: opacity 500ms ease-out; */
+  /* z-index: 100; */
+}
+.image-container {
+  overflow: hidden; /* Hide the overflow to prevent scrollbars */
+  display: inline-block; /* Shrink to fit the image size */
+}
+
+.zoom-image {
+  transition: transform 0.5s ease; /* Smooth transition */
+  
+}
+
+.zoom-image:hover {
+  transform: scale(1.1); /* Zoom in by 20% */
+}
