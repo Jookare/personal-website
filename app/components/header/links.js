@@ -31,7 +31,7 @@ export const Links = () => {
                     <p>GitHub</p>
                 </button>
             </a>
-            <a href={"cv.pdf"} without rel="noopener noreferrer" target="_blank">
+            <a href={"cv.pdf"} rel="noopener noreferrer" target="_blank">
 
                 <button className={`${buttonTheme.base} ${buttonTheme.hover}`}>
                     <svg role="img" viewBox="0 0 24 24" fill="currentColor" className="h-6 mr-2" xmlns="http://www.w3.org/2000/svg">
