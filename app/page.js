@@ -27,10 +27,10 @@ export default function Home() {
         <Links />
         <div className="w-full rounded-xl p-4 shadow-md text-zinc-200/90 text-lg">
           <p className="leading-7">
-            Hi, I'm Joona &nbsp;—&nbsp; A dedicated Master of Science in Data-Centric Engineering.
-            My academic journey is driven by intense passion for&nbsp;
-            <span className="text-white">Computer Vision</span>,&nbsp;
-            <span className="text-cyan-500">Artificial Intelligence</span>, and&nbsp;
+            Hi, I'm Joona {" "}—{" "} A dedicated Master of Science in Data-Centric Engineering.
+            My academic journey is driven by intense passion for{" "}
+            <span className="text-white">Computer Vision</span>,{" "}
+            <span className="text-cyan-500">Artificial Intelligence</span>, and{" "}
             <span className="text-red-500">Data Science</span>.
           </p>
 
