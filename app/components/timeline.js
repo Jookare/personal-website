@@ -51,7 +51,7 @@ const Timeline = () => {
                     </div>
                     <div className="timeline-start mb-4 md:text-end md:mr-3 ml-3">
                         <time className="font-mono italic"> 01.09.2023</time>
-                        <div className="text-md ml-4">Double degree exchange studies in&nbsp;
+                        <div className="text-md ml-4">Double degree exchange studies in{" "}
                             <a href="https://www.usi.ch/en" target="_blank" className="hover:text-primary transition-all duration-300">
                                 Università della Svizzera italiana (USI).
                             </a>
@@ -75,7 +75,7 @@ const Timeline = () => {
                     </div>
                     <div className="timeline-end mb-4 md:mr-3 ml-3">
                         <time className="font-mono italic">15.05.2023</time>
-                        <div className="text-md">First developer job as Quantum Technologies Trainee&nbsp;
+                        <div className="text-md">First developer job as Quantum Technologies Trainee{" "}
                             <a href="https://www.csc.fi/" target="_blank" className="hover:text-primary transition-all duration-300">
                                 @CSC - IT Center for Science
                             </a>
