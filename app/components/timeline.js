@@ -90,7 +90,7 @@ const Timeline = () => {
                     </div>
                     <div className="timeline-start mb-4 md:text-end md:mr-3 ml-3">
                         <time className="font-mono"> 01.09.2022</time>
-                        <div className="text-md">Started Master's program in Data-Centric Engineering.</div>
+                        <div className="text-md">Started Master&apos;s program in Data-Centric Engineering.</div>
                     </div>
                     <hr className="bg-primary" />
                 </li>
