@@ -5,7 +5,7 @@ import { Links } from "./components/header/links";
 import Skills from "./components/skills";
 import Timeline from "./components/timeline";
 import Projects from "./components/projects/main";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 // Define the Home component
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth"
     });
   };
 
@@ -27,7 +27,7 @@ export default function Home() {
         <Links />
         <div className="w-full rounded-xl p-4 shadow-md text-zinc-200/90 text-lg">
           <p className="leading-7">
-            Hi, I'm Joona {" "}—{" "} A dedicated Master of Science in Data-Centric Engineering.
+            Hi, I&apos;m Joona {" "}—{" "} A dedicated Master of Science in Data-Centric Engineering.
             My academic journey is driven by intense passion for{" "}
             <span className="text-white">Computer Vision</span>,{" "}
             <span className="text-cyan-500">Artificial Intelligence</span>, and{" "}
