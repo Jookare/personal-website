@@ -11,7 +11,7 @@ export const Links = () => {
 
 
     return (
-        <div id="links" className="h-12  mt-72 max-w-[650px] w-full sm:pl-[180px] sm:justify-start justify-center gap-4 flex my-4 z-30 px-4 items-center">
+        <div id="links" className="h-12 max-w-[650px] w-full sm:pl-[180px] sm:justify-start justify-center gap-4 flex my-4 z-30 px-4 items-center">
 
             {/* LinkedIn Button */}
             <button className={`${buttonTheme.base} ${buttonTheme.hover} group`}>
