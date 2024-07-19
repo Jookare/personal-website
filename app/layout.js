@@ -20,9 +20,9 @@ export const metadata = {
     site_name: 'Joona Kareinen Portfolio',
     images: [
       {
-        url: '/Logo.png',
-        width: 1080,
-        height: 950,
+        url: '/preview.jpg',
+        width: 598,
+        height: 286,
         alt: 'Joona Kareinen Portfolio Logo',
       },
     ],

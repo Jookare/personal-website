@@ -7,10 +7,7 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
    
-   <defs id="defs2">
-      <rect x="111.77632" y="530.34302" width="521.90222" height="348.08566" id="rect835" />
-      <rect x="111.77632" y="530.34302" width="521.90222" height="348.08566" id="rect835-1" />
-   </defs>
+
    <g id="layer1" transform="translate(-30.204306,-150.03938)">
       <path id="text841" style="fill:#ef4444"
        d="m 81.464795,150.37118 c -1.157551,0 -2.439129,0.73588 -3.844727,2.20762 l -12.998689,13.59297
