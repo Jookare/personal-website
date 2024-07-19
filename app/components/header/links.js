@@ -13,8 +13,8 @@ export const Links = () => {
 
     return (
         <div id="links" className="h-12 max-w-[650px] w-full sm:pl-[180px] sm:justify-start justify-center gap-4 flex my-4 z-30 px-4 items-center">
-            <SVGButton path={github} name="Github" link={"https://www.linkedin.com/in/joona-kareinen/"} />
-            <SVGButton path={linkedid} name="LinkedIn" link={"https://github.com/Jookare"} />
+            <SVGButton path={linkedid} name="LinkedIn" link={"https://www.linkedin.com/in/joona-kareinen/"} />
+            <SVGButton path={github} name="Github" link={"https://github.com/Jookare"} />
             <SVGButton path={resume} name="Resume" link={"cv.pdf"} />
         </div >
     )
