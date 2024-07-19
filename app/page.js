@@ -5,7 +5,7 @@ import { Links } from "./components/header/links";
 import Skills from "./components/skills";
 import Timeline from "./components/timeline";
 import Projects from "./components/projects/main";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 // Define the Home component
 export default function Home() {

@@ -27,7 +27,7 @@ const Skills = () => {
                 <div className="grid sm:grid-cols-3 grid-cols-2 gap-4">
                     {skills.map((skill, index) => (
                         <div key={index} className={`${skillstyle} hover:grayscale-0 group`} >
-                            <Image src={skill.icon} alt={skill.name} width={64} height={64} className='sm:h-16 sm:w-16 h-8 w-8'/>
+                            <Image src={skill.icon} alt={skill.name} width={64} height={64} className='sm:h-16 sm:w-16 h-8 w-8' />
                             <p className='group-hover:text-zinc-200 transition-all duration-200'>{skill.name}</p>
 
                         </div>
