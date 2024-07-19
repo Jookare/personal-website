@@ -1,6 +1,6 @@
 
 const buttonTheme = {
-    base: "flex bg-accent w-auto sm:h-10 h-6 px-2 rounded-lg items-center text-zinc-400 transition-all duration-200",
+    base: "flex bg-accent w-auto sm:h-10 h-8 px-2 rounded-lg items-center text-zinc-400 transition-all duration-200",
     hover: "hover:underline hover:text-zinc-200 hover:scale-105 ease-out",
     icon: "sm:h-6 h-4 mr-2"
 };
@@ -11,7 +11,7 @@ export const Links = () => {
 
 
     return (
-        <div id="links" className="h-12 pl-[180px] w-[650px] gap-4 flex mt-4 z-30 items-center">
+        <div id="links" className="h-12 max-w-[650px] w-full sm:pl-[180px] sm:justify-start justify-center gap-4 flex my-4 z-30 px-4 items-center">
 
             {/* LinkedIn Button */}
             <button className={`${buttonTheme.base} ${buttonTheme.hover} group`}>

@@ -21,7 +21,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <div className="font-sans max-w-[650px] w-full flex flex-col gap-4 sm:px-4 px-8">
+        <div className="font-sans max-w-[650px] w-full flex flex-col gap-4 px-4">
             <h1 className="text-2xl font-semibold">Skills</h1>
             <div className="bg-[#141414] p-4 w-full ">
                 <div className="grid sm:grid-cols-3 grid-cols-2 gap-4">

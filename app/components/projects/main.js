@@ -2,7 +2,7 @@ import Item from "./item";
 
 const Projects = () => {
   return (
-    <div className="font-sans max-w-[650px] w-full gap-4 flex flex-col  sm:px-4 px-8">
+    <div className="font-sans max-w-[650px] w-full gap-4 flex flex-col px-4">
       <h1 className="text-2xl font-semibold text-white">Projects</h1>
       <div className="bg-[#141414] p-4 rounded-lg">
         <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">

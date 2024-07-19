@@ -65,7 +65,7 @@ const timelineData = [
 
 const Timeline = () => {
     return (
-        <div className="font-sans max-w-[650px] w-full flex flex-col gap-4 sm:px-4 px-8">
+        <div className="font-sans max-w-[650px] w-full flex flex-col gap-4 px-4">
             <h1 className="text-2xl font-semibold text-zinc-100">My Timeline</h1>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical p-4">
                 {timelineData.map((item, index) => (

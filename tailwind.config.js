@@ -6,10 +6,16 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'xs': '420px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      // => @media (min-width: 576px) { ... }
+    },
     extend: {
       backgroundImage: {
-        'bg': "url('../public/ccchaos.svg')",
-        'magicpattern': "url('../public/magicpattern.png')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
@@ -24,7 +30,7 @@ module.exports = {
         'consola': ['consola'],
         'hubot': ['hubot']
       },
-      colors:{
+      colors: {
         accent: "#212121",
         primary: "#EE4C2C"
       },

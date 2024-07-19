@@ -7,14 +7,14 @@ export const Info = () => {
     return (
         <div id="header" className="h-60 stripe-bg box-border ">
             <div className="border-b-2 border-t-0 border-x-0 border-accent min-h-60 flex">
-                <div className="flex items-end w-full mx-auto max-w-[800px] px-4">
+                <div className="flex items-end w-full mx-auto max-w-[650px] px-4">
                     <div className="min-h-fit w-full pt-5 flex relative">
-                        <div className="absolute left-0 top-0 right-0 z-40 sm:w-[150px] sm:h-[150px] w-20 h-20">
+                        <div className="absolute left-0 sm:top-2 xs:top-2 top-6 right-0 z-40 sm:w-[150px] sm:h-[150px] xs:w-28 xs:h-28 w-24 h-24">
                             <Image src="/pfp.png" width={150} height={150} alt="profile picture" className="rounded-full" />
                         </div>
-                        <div className="content sm:pl-[180px] pl-[88px] flex flex-col gap-2">
-                            <h1 className="sm:text-3xl text-2xl font-semibold h-[32px]">Joona kareinen</h1>
-                            <div className="text-zinc-400 flex sm:gap-6 gap-2 pb-2">
+                        <div className="content sm:pl-[180px] xs:pl-[120px] pl-[105px] flex flex-col gap-2">
+                            <h1 className="sm:text-3xl text-2xl font-semibold xs:h-[32px] h-[28px]">Joona kareinen</h1>
+                            <div className="text-zinc-400 flex xs:flex-row flex-col sm:gap-6 gap-2 pb-2">
                                 <InfoItem iconPath={computerIcon}
                                     text="Computer Vision Engineer" />
                                 <InfoItem iconPath={locationIcon}

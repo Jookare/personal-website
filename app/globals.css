@@ -52,36 +52,3 @@ body {
 }
 
 
-/* .label {
-  position: relative;
-  display: inline-block;
-  white-space: nowrap;
-  cursor: pointer;
-}
-.label:after{
-  content:'Artificial Intelligence';
-}
-.label:hover:after{
-  content:'Deep Learning';
-} */
-
-
-
-.skill:hover .no-color {
-  /* opacity: 0;  */
-  /* transition: opacity 500ms ease-out; */
-  /* z-index: 100; */
-}
-.image-container {
-  overflow: hidden; /* Hide the overflow to prevent scrollbars */
-  display: inline-block; /* Shrink to fit the image size */
-}
-
-.zoom-image {
-  transition: transform 0.5s ease; /* Smooth transition */
-  
-}
-
-.zoom-image:hover {
-  transform: scale(1.1); /* Zoom in by 20% */
-}

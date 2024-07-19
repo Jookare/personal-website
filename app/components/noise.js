@@ -15,27 +15,27 @@
 import { useEffect, useRef } from 'react';
 
 const Noise = () => {
-    const svgRef = useRef(null);
+    // const svgRef = useRef(null);
 
-    useEffect(() => {
-        const handleResize = () => {
-            if (svgRef.current) {
-                svgRef.current.setAttribute('width', 'full');
-                svgRef.current.setAttribute('height', 'full');
-            }
-        };
+    // useEffect(() => {
+    //     const handleResize = () => {
+    //         if (svgRef.current) {
+    //             // svgRef.current.setAttribute('width', '100%');
+    //             svgRef.current.setAttribute('height', 'full');
+    //         }
+    //     };
 
-        // Attach resize event listener
-        window.addEventListener('resize', handleResize);
+    //     // Attach resize event listener
+    //     window.addEventListener('resize', handleResize);
 
-        // Initial call to set the size
-        handleResize();
+    //     // Initial call to set the size
+    //     handleResize();
 
-        // Cleanup event listener on component unmount
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+    //     // Cleanup event listener on component unmount
+    //     return () => {
+    //         window.removeEventListener('resize', handleResize);
+    //     };
+    // }, []);
     return (
         <svg
             // ref={svgRef} 
