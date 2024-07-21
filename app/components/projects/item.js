@@ -11,7 +11,7 @@ const skillStyle = `
 const Item = ({ img, name, skills, colors = [] }) => {
     return (
         <div className={skillStyle}>
-            <div className="overflow-hidden h-3/4 p-2 rounded-t-lg relative">
+            <div className="overflow-hidden h-3/4 w-full p-2 rounded-t-lg relative">
                 <Image
                     src={img}
                     width={1080}

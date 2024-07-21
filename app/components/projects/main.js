@@ -1,5 +1,7 @@
 import Item from "./item";
 
+
+
 const Projects = () => {
   return (
     <div className="font-sans max-w-[650px] w-full gap-4 flex flex-col px-4">
@@ -13,7 +15,13 @@ const Projects = () => {
             colors={["border-violet-400", "border-yellow-400", "border-red-400"]}
           />
           <Item
-            img="/project.jpg"
+            img="/hangboard.png"
+            name="Climbing workout app"
+            skills={["App Design", "React Native"]}
+            colors={["border-cyan-400", "border-blue-400"]}
+          />
+          <Item
+            img="/portfolio.jpg"
             name="Portfolio website"
             skills={["Web Design", "React"]}
             colors={["border-indigo-400", "border-blue-400"]}
