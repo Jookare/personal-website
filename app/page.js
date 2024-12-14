@@ -23,12 +23,12 @@ export default function Home() {
       <Info />
       <div
         id="info"
-        className="h-auto max-w-[650px] px-4 w-full flex flex-col items-center mx-auto sm:gap-8 gap-2"
+        className="h-auto max-w-[650px] px-4 w-full flex flex-col items-center mx-auto sm:gap-4 gap-2"
       >
         <Links />
         <Introduction />
-        <Divider />
-        <Timeline />
+        {/* <Divider /> */}
+        {/* <Timeline /> */}
         <Divider />
         <Projects />
         <Divider />
@@ -44,13 +44,14 @@ export default function Home() {
 // Introduction component
 function Introduction() {
   return (
-    <div className="w-full rounded-xl shadow-md text-zinc-200/90 sm:text-lg px-4">
+    <div className="w-full rounded-xl text-zinc-200/90 sm:text-lg px-4">
       <p className="leading-7">
-        Hi, I&apos;m Joona — A dedicated Master of Science in Data-Centric Engineering. My academic
-        journey is driven by intense passion for{" "}
-        <span className="text-white">Computer Vision</span>,{" "}
-        <span className="text-cyan-500">Artificial Intelligence</span>, and{" "}
-        <span className="text-red-500">Data Science</span>.
+        Hi, I'm Joona — a PhD student at LUT University, specializing in Computer Vision.
+        My research focuses on analyzing plankton data using deep learning.
+        I'm interested in {' '}
+        <span className="text-white">Artificial Intelligence</span>,{" "}
+        <span className="text-red-500/90">Data Science</span>,{" "} and {" "}
+        <span className="text-cyan-500/90">Practical Research</span>.
       </p>
     </div>
   );
