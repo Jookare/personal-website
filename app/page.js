@@ -46,9 +46,9 @@ function Introduction() {
   return (
     <div className="w-full rounded-xl text-zinc-200/90 sm:text-lg px-4">
       <p className="leading-7">
-        Hi, I'm Joona — a PhD student at LUT University, specializing in Computer Vision.
+        Hi, I&apos;m Joona — a PhD student at LUT University, specializing in Computer Vision.
         My research focuses on analyzing plankton data using deep learning.
-        I'm interested in {' '}
+        I&apos;m interested in {' '}
         <span className="text-white">Artificial Intelligence</span>,{" "}
         <span className="text-red-500/90">Data Science</span>,{" "} and {" "}
         <span className="text-cyan-500/90">Practical Research</span>.
