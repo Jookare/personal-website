@@ -49,8 +49,8 @@ function Introduction() {
         Hi, I&apos;m Joona — a PhD student specializing in Computer Vision.
         I&apos;m interested in {' '}
         <span className="text-white">Artificial Intelligence</span>,{" "}
-        <span className="text-red-500/90">Data Science</span>,{" "} and {" "}
-        <span className="text-cyan-500/90">Practical Research</span>.
+        <span className="text-red-400">Data Science</span>,{" "} and {" "}
+        <span className="text-cyan-400">Practical Research</span>.
       </p>
     </div>
   );

@@ -30,8 +30,8 @@ const Skills = () => {
                 <div className="grid sm:grid-cols-4 xs:grid-cols-3 grid-cols-2 gap-4">
                     {skills.map((skill, index) => (
                         <div key={index} className={`${skillstyle} hover:grayscale-0 group p-1`} >
-                            <Image src={skill.icon} alt={skill.name} width={64} height={64} className='sm:h-12 sm:w-12 h-8 w-8' />
-                            <p className='group-hover:text-zinc-200 transition-all duration-200 sm:text-base xs:text-[14px] text-[12px] text-center'>{skill.name}</p>
+                            <Image src={skill.icon} alt={skill.name} width={64} height={64} className='sm:h-12 sm:w-12 xs:h-10 xs:w-10 w-14 h-14' />
+                            <p className='group-hover:text-zinc-200 transition-all duration-200 sm:text-base xs:text-xs text-sm text-center'>{skill.name}</p>
 
                         </div>
                     ))}

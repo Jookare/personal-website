@@ -33,7 +33,7 @@ const InfoItem = ({ iconPath, text }) => (
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d={iconPath} />
         </svg>
-        <h1 className="sm:text-base xs:text-[12px] text-[10px] self-center">
+        <h1 className="sm:text-base xs:text-sm text-xs self-center">
             {text}{' '}
         </h1>
     </div>
