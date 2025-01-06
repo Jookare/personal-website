@@ -19,8 +19,7 @@ const skills = [
     { name: 'CUDA', icon: '/logos/cuda.svg' },
     { name: 'C++', icon: '/logos/cpp.svg' },
     { name: 'Linux', icon: '/logos/linux.svg' },
-    { name: 'Git', icon: '/logos/git.svg' },
-    { name: 'Latex', icon: '/logos/latex.svg' },
+    { name: 'Git', icon: '/logos/git.svg' }
 ];
 
 const Skills = () => {
